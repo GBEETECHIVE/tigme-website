@@ -56,7 +56,7 @@ export function ProgramOverview() {
 
         <div className="relative mt-10 min-h-[650px] overflow-hidden rounded-[28px] bg-[#002c5b] text-white sm:min-h-[620px]">
           <Image
-            src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1800&q=85"
+            src="/reference/Podiatric-Medicine-Surgery-hero.png"
             alt="Podiatry care in a clinical setting"
             fill
             sizes="(max-width: 1280px) 100vw, 1280px"

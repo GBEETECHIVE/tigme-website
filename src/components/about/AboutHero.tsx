@@ -4,7 +4,7 @@ export function AboutHero() {
   return (
     <section id="top" className="relative flex min-h-[410px] items-end overflow-hidden bg-[#f3f8fa] pt-28 sm:min-h-[490px] lg:min-h-[560px]">
       <Image
-        src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?auto=format&fit=crop&w=2200&q=90"
+        src="/reference/hero-about.png"
         alt="A team of physicians collaborating in a hospital"
         fill
         priority

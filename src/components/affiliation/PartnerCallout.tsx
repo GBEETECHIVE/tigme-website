@@ -17,7 +17,7 @@ export function PartnerCallout() {
           <span className="text-4xl" aria-hidden="true">✦</span>
           <h2 className="mt-3 font-display text-3xl font-semibold uppercase leading-tight sm:text-4xl">Interested in becoming an affiliated site?</h2>
           <p className="mt-4 text-sm leading-6 text-white/90">Partner with TIGME to support graduate medical education, expand clinical training opportunities, and help prepare the next generation of physicians.</p>
-          <Link href="/contact-us" className="mt-7 inline-flex min-h-12 items-center justify-center bg-white px-10 text-sm font-semibold text-[#002c5b] transition hover:bg-[#002c5b] hover:text-white">Become a Partner</Link>
+          <Link href="/contact-us" className="mt-7 inline-flex min-h-12 rounded-[10px] items-center justify-center bg-white px-10 text-sm font-semibold text-[#002c5b] transition hover:bg-[#002c5b] hover:text-white">Become a Partner</Link>
         </div>
       </div>
     </section>

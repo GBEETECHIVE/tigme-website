@@ -5,7 +5,7 @@ export function AffiliationHero() {
     <section className="px-5 pb-8 pt-24 sm:pt-28 lg:px-10">
       <div className="relative mx-auto flex min-h-[360px] max-w-7xl items-center justify-center overflow-hidden rounded-xl bg-[#002c5b] px-6 py-16 text-center text-white sm:min-h-[420px] sm:px-12 lg:min-h-[470px]">
         <Image
-          src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=2000&q=90"
+          src="/reference/affiliation.png"
           alt="Healthcare and education partners meeting together"
           fill
           priority

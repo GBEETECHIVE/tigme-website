@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { AboutSectionTitle } from "./AboutSectionTitle";
 
-const missionImage = "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=1200&q=90";
-const visionImage = "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=90";
+const missionImage = "/reference/mission.png";
+const visionImage = "/reference/vision.png";
 
 function MissionVisionBlock({
   title,
@@ -39,8 +39,8 @@ export function MissionVisionSection() {
       <div className="mx-auto max-w-[1280px]">
         <AboutSectionTitle title="Our Mission and Vision" copy="TIGME wants to become a national leader in medical education, producing physicians who are strong in clinical care, research, and healthcare leadership while maintaining compassion." />
         <div className="space-y-9 sm:space-y-12">
-          <MissionVisionBlock title="Our Mission" accent="Train exceptional physicians" copy="Develop critical thinkers and lifelong learners who deliver compassionate, research-informed care through education, innovation, and scholarship." image={missionImage} imageAlt="Physicians working together as a team" />
-          <MissionVisionBlock title="Our Vision" accent="Shape the future of healthcare" copy="Become a nationally recognized leader in graduate medical education by developing skilled, compassionate physicians who lead with purpose and serve their communities." image={visionImage} imageAlt="Medical professionals collaborating in a clinical setting" reverse />
+          <MissionVisionBlock title="Our Mission" accent="Train exceptional physicians" copy="Develop critical thinkers and lifelong learners who deliver compassionate, research-informed care through education, innovation, and scholarship." image={missionImage} imageAlt="Physicians working together as a team" reverse />
+          <MissionVisionBlock title="Our Vision" accent="Shape the future of healthcare" copy="Become a nationally recognized leader in graduate medical education by developing skilled, compassionate physicians who lead with purpose and serve their communities." image={visionImage} imageAlt="Medical professionals collaborating in a clinical setting" />
         </div>
       </div>
     </section>

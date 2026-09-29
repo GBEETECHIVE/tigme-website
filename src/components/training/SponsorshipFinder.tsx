@@ -27,7 +27,7 @@ export function SponsorshipFinder() {
 
       <div className="relative">
         <div className="relative flex h-[340px] items-start justify-center overflow-hidden rounded-xl bg-[#002c5b] px-5 pt-16 text-center text-white sm:h-[380px] sm:pt-20 lg:h-[405px] lg:pt-[100px]">
-          <Image src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1800&q=90" alt="Physicians walking together through a hospital" fill sizes="(max-width: 1280px) 100vw, 1280px" className="object-cover object-center" />
+          <Image src="/reference/Rectangle 112.png" alt="Physicians walking together through a hospital" fill sizes="(max-width: 1280px) 100vw, 1280px" className="object-cover object-center" />
           <div className="absolute inset-0 bg-[#06182b]/55" />
           <div className="relative z-10 max-w-2xl">
             <h3 className="font-display text-2xl font-semibold uppercase sm:text-3xl">Find Your Sponsorship Path</h3>

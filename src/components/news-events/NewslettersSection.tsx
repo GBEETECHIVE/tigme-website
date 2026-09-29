@@ -2,9 +2,9 @@ import Image from "next/image";
 import { NewsSectionIntro } from "./NewsSectionIntro";
 
 const newsletters = [
-  { title: "TIGME Monthly Newsletter November 2023 - Vol 9", volume: "VOL. 9", image: "https://images.unsplash.com/photo-1504439904031-93astedf773b?auto=format&fit=crop&w=900&q=85" },
-  { title: "TIGME Monthly Newsletter November 2023 - Vol 10", volume: "VOL. 10", image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85" },
-  { title: "TIGME Monthly Newsletter September 2023 - Vol 6", volume: "VOL. 6", image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=85" },
+  { title: "TIGME Monthly Newsletter November 2023 - Vol 9", volume: "VOL. 9", image: "/reference/Frame 252 (1).png" },
+  { title: "TIGME Monthly Newsletter November 2023 - Vol 10", volume: "VOL. 10", image: "/reference/Frame 252.png" },
+  { title: "TIGME Monthly Newsletter September 2023 - Vol 6", volume: "VOL. 6", image: "/reference/Frame 255.png" },
 ];
 
 export function NewslettersSection() {

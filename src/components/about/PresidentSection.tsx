@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { AboutSectionTitle } from "./AboutSectionTitle";
 
-const presidentPortrait = "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1000&q=90";
+const presidentPortrait = "/reference/msg-pres.png";
 
 export function PresidentSection() {
   return (
@@ -22,9 +22,9 @@ export function PresidentSection() {
           <div className="pt-1 text-xs leading-6 text-slate-700 sm:text-sm">
             <h3 className="font-display text-2xl font-semibold uppercase leading-tight text-[#002c5b] sm:text-3xl">Advancing the future of medicine</h3>
             <p className="mt-4">We are pleased to offer an exceptional graduate medical education program through the Texas Institute for Graduate Medical Education (TIGME). We believe that every resident deserves the opportunity to develop excellence in patient care.</p>
-            <p className="mt-4">Through rigorous clinical training, academic learning, physician mentorship, and research opportunities, TIGME bridges the gap between medical knowledge and real-world practice.</p>
-            <p className="mt-4">Our programs are designed to develop leaders in healthcare through education, innovation, and a shared commitment to the communities we serve.</p>
-            <p className="mt-4">I invite you to learn more about TIGME, our programs, and the physicians who are shaping the future of medicine.</p>
+            <p className="mt-4">Through rigorous clinical training, academic learning, physician mentorship, and research opportunities, TIGME bridges the gap between medical knowledge and real-world practices.</p>
+            <p className="mt-4">Our programs also address the evolving needs of healthcare through education in areas such as leadership, artificial intelligence in medicine, and the business of medicine.</p>
+            <p className="mt-4">To learn more about the TIGME GME Program, contact info@tigme.org. We look forward to welcoming passionate learners and future healthcare leaders into our community.</p>
             <p className="mt-5 font-semibold text-[#002c5b]">Dr. Sohail Rao<br /><span className="font-normal text-slate-600">President</span></p>
           </div>
         </div>

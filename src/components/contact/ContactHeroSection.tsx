@@ -32,7 +32,7 @@ export function ContactHeroSection() {
       <div className="relative mx-auto max-w-[1600px] overflow-visible rounded-xl">
         <div className="relative min-h-[340px] overflow-hidden rounded-xl bg-[#002c5b] sm:min-h-[440px] lg:min-h-[550px]">
           <Image
-            src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=2000&q=90"
+            src="/reference/Rectangle 99.png"
             alt="Healthcare campus surrounded by gardens"
             fill
             priority

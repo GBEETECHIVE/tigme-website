@@ -8,7 +8,7 @@ export function PressReleaseSection() {
         TIGME's training network brings together academic partners, clinical sites, continuity clinics, specialty partners, and research sites to create a connected graduate medical education environment.
       </NewsSectionIntro>
       <article className="grid overflow-hidden rounded-xl border border-slate-100 bg-[#fafafa] p-3 sm:gap-5 sm:p-4 md:grid-cols-[minmax(220px,0.34fr)_1fr]">
-        <div className="relative min-h-52 overflow-hidden rounded-lg sm:min-h-64"><Image src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=900&q=85" alt="TIGME physicians and residency team" fill sizes="(max-width: 768px) 100vw, 34vw" className="object-cover" /></div>
+        <div className="relative min-h-52 overflow-hidden rounded-lg sm:min-h-64"><Image src="/reference/Rectangle 76.png" alt="TIGME physicians and residency team" fill sizes="(max-width: 768px) 100vw, 34vw" className="object-cover" /></div>
         <div className="relative flex flex-col justify-center px-2 py-5 sm:px-3 sm:py-8">
           <time className="absolute right-3 top-3 text-[10px] text-slate-400">August 17, 2023</time>
           <p className="font-display text-xl font-bold uppercase text-[#002c5b]">Program News</p>

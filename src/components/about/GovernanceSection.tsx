@@ -3,7 +3,7 @@ import { AboutSectionTitle } from "./AboutSectionTitle";
 
 export function GovernanceSection() {
   return (
-    <section className="bg-white px-5 py-10 sm:py-14 lg:px-10">
+    <section className="bg-white px-5 py-2 sm:py-14 lg:px-10">
       <div className="mx-auto max-w-[1280px]">
         <AboutSectionTitle title="How TIGME Is Governed" copy="Every training decision traces back through one line of accountability. Select any office to see what it does and who it serves." />
         <Image

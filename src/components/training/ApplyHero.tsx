@@ -5,7 +5,7 @@ export function ApplyHero() {
     <section className="mx-auto max-w-[1280px] px-5 pt-5 lg:px-10">
       <div className="relative grid min-h-[300px] place-items-center overflow-hidden rounded-xl bg-[#002c5b] text-center text-white sm:min-h-[400px]">
         <Image
-          src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1800&q=85"
+          src="/reference/Rectangle 114.png"
           alt="Healthcare team joining hands together"
           fill
           priority

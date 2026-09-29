@@ -4,7 +4,7 @@ import { NewsSectionIntro } from "./NewsSectionIntro";
 const stories = [
   { title: "Building the TIGME Training Network", description: "TIGME is developing a connected network of academic, clinical, continuity, specialty, and research sites to support comprehensive physician training across multiple communities.", image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1000&q=85" },
   { title: "Developing New Residency Opportunities", description: "TIGME continues to advance residency programs designed to expand access to high-quality graduate medical education and prepare physicians to serve diverse communities.", image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=1000&q=85" },
-  { title: "Strengthening Academic & Clinical Partnerships", description: "Collaboration between healthcare organizations and academic institutions is an important part of TIGME's approach to developing sustainable graduate medical education programs.", image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85" },
+  { title: "Strengthening Academic & Clinical Partnerships", description: "Collaboration between healthcare organizations and academic institutions is an important part of TIGME's approach to developing sustainable graduate medical education programs.", image: "/reference/Rectangle 75 (8).png" },
 ];
 
 export function LatestNewsSection() {
