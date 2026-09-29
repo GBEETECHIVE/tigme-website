@@ -50,13 +50,13 @@ export function Navbar() {
   className="flex shrink-0 items-center gap-3"
   aria-label="TIGME home"
 >
-  <span className="relative h-11 w-11 shrink-0 sm:h-12 sm:w-12">
+  <span className="relative h-[60px] w-[60px] shrink-0 sm:h-[68px] sm:w-[68px]">
     <Image
-      src="/reference/TIGME_logo.png"
+      src="/reference/TIGME_Logo.png"
       alt="TIGME Logo"
       fill
       priority
-      sizes="48px"
+      sizes="(max-width: 639px) 60px, 68px"
       className="object-contain"
     />
   </span>
