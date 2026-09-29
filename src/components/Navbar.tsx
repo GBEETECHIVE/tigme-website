@@ -39,12 +39,28 @@ export function Navbar() {
   return (
     <header className="fixed left-1/2 top-3 z-50 w-[calc(100%-1.5rem)] max-w-[1280px] -translate-x-1/2">
       <div className="flex h-[64px] items-center gap-4 rounded-full border border-slate-200/90 bg-white/95 px-4 shadow-[0_3px_14px_rgba(0,0,0,0.08)] backdrop-blur-md sm:h-[72px] sm:px-5 lg:gap-8 lg:px-6">
-        <Link href="/" className="flex shrink-0 items-center gap-3" aria-label="TIGME home">
+        {/* <Link href="/" className="flex shrink-0 items-center gap-3" aria-label="TIGME home">
           <span className="relative grid h-11 w-11 place-items-center overflow-hidden rounded-full border border-slate-300 bg-white sm:h-12 sm:w-12">
             <span className="font-display text-lg font-bold text-[#002c5b]">T</span>
             <span className="absolute inset-1 rounded-full border border-[#c5222c]/50" />
           </span>
-        </Link>
+        </Link> */}
+        <Link
+  href="/"
+  className="flex shrink-0 items-center gap-3"
+  aria-label="TIGME home"
+>
+  <span className="relative h-11 w-11 shrink-0 sm:h-12 sm:w-12">
+    <Image
+      src="/reference/TIGME_logo.png"
+      alt="TIGME Logo"
+      fill
+      priority
+      sizes="48px"
+      className="object-contain"
+    />
+  </span>
+</Link>
 
         <nav className="hidden items-center gap-10 text-[15px] font-semibold text-[#002c5b] lg:flex">
           <Link href="/news-and-events" className="transition-colors hover:text-[#c5222c]">News &amp; Events</Link>
@@ -144,7 +160,7 @@ export function Navbar() {
             </div>
           ) : (
             <div className="relative hidden min-h-[330px] overflow-hidden rounded-[28px] lg:block">
-              <Image src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1200&q=85" alt="Medical students walking together" fill className="object-cover" sizes="(max-width: 1280px) 50vw, 560px" />
+              <Image src="/reference/Rectangle 62.png" alt="Medical students walking together" fill className="object-cover" sizes="(max-width: 1280px) 50vw, 560px" />
             </div>
           )}
         </div>

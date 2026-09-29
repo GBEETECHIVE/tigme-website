@@ -17,7 +17,7 @@ export function LocationsMapSection() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <section className="bg-white px-5 py-16 sm:py-20 lg:px-10 lg:py-24">
+    <section className="bg-white px-5 py-5 sm:py-20 lg:px-10 lg:py-15">
       <div className="mx-auto max-w-7xl">
         <h2 className="font-display text-4xl font-medium uppercase leading-[0.95] text-[#002c5b] sm:text-5xl lg:text-6xl">
           Six locations across two states
@@ -46,7 +46,7 @@ export function LocationsMapSection() {
             onClick={() => setIsExpanded((expanded) => !expanded)}
             aria-expanded={isExpanded}
             aria-label={isExpanded ? "Collapse location map" : "Expand location map"}
-            className="absolute bottom-4 right-4 grid h-14 w-14 place-items-center rounded-full bg-[#b51219] text-3xl text-white shadow-lg transition hover:bg-[#d2212a] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#b51219] sm:bottom-6 sm:right-6"
+            className="absolute bottom-4 right-4 grid h-14 w-14 place-items-center !rounded-full bg-[#b51219] text-3xl text-white shadow-lg transition hover:bg-[#d2212a] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#b51219] sm:bottom-6 sm:right-6"
           >
             <span className={`transition-transform duration-500 ${isExpanded ? "rotate-180" : ""}`} aria-hidden="true">↓</span>
           </button>

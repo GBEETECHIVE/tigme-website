@@ -7,9 +7,10 @@ const networkCards = [
   {
     name: "Alpine",
     region: "Houston Texas",
+    status: "In Development",
     type: "Academic Partner",
     description: "Academic collaboration supporting TIGME's graduate medical education network and physician training.",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1800&q=85",
+    image: "/reference/network-2.png",
   },
   {
     name: "Del Rio",
@@ -17,34 +18,49 @@ const networkCards = [
     status: "In Development",
     type: "Clinical Site",
     description: "Supporting clinical training and the development of residency opportunities in the community.",
-    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1800&q=85",
+    image: "/reference/network-1.png",
   },
   {
-    name: "El Paso",
-    region: "West Texas",
-    type: "Academic Partner",
-    description: "Connecting physician education with the diverse healthcare needs of the border region.",
-    image: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1800&q=85",
-  },
-  {
-    name: "East Houston",
-    region: "East Houston Texas",
+    name: "Roswell",
+    region: "New Mexico",
+    status: "In Development",
     type: "Clinical Site",
-    description: "Expanding access to meaningful training experiences in a growing and connected community.",
-    image: "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=1800&q=85",
+    description: "A clinical training location within TIGME’s expanding regional network.",
+    image: "/reference/network-2.png",
+  },
+  {
+    name: "Eagle Pass",
+    region: "South Texas",
+    status: "In Development",
+    type: "Clinical · Continuity · Academic",
+    description: "A connected training environment bringing together clinical care, continuity experiences, and academic education.",
+    image: "/reference/network-1.png",
+  },
+  {
+    name: "San Antonio",
+    region: "Texas",
+    type: "Research Site",
+    description: "Supporting research and scholarly opportunities that complement physician training.",
+    image: "/reference/network-2.png",
+  },
+  {
+    name: "Houston",
+    region: "Texas",
+    status: "In Development",
+    type: "Clinical · Continuity · Specialty",
+    description: "A metropolitan training environment combining clinical experience, continuity care, and specialty exposure.",
+    image: "/reference/network-1.png",
   },
 ];
 
 export function NetworkSection() {
   return (
-    <section className="bg-white px-5 py-16 sm:py-20 lg:px-10 lg:py-28">
+    <section className="bg-white px-5 sm:py-20 lg:px-10 lg:py-5">
       <div className="mx-auto max-w-7xl">
         <div className="mb-8 w-full">
           <h2 className="font-display text-4xl font-bold uppercase leading-[0.95] text-[#002c5b] sm:text-5xl">The training network</h2>
-          <p className="mt-6 w-full text-sm leading-6 text-slate-600 sm:text-base sm:leading-7">
-            TIGME&apos;s training network brings together academic partners, clinical sites, continuity clinics, specialty partners, and research sites to create a connected graduate medical education environment. Spanning communities across the Texas border region and East Houston, the network links residency training with local healthcare systems, universities, community-based care, and research opportunities. This collaborative model gives residents exposure to diverse clinical settings while helping build stronger connections between physician training and the communities they serve.
-          </p>
-        </div>
+          <p className="mt-6 w-full capitalize text-sm leading-6 text-slate-600 sm:text-base sm:leading-7">
+            TIGME’s Training Network brings together academic partners, clinical sites, continuity clinics, specialty partners, and research sites to create a connected graduate medical education environment. Spanning communities across the Texas border region and east Houston, the network links residency training with local healthcare systems, universities, community-based care, and research opportunities. This collaborative model gives residents exposure to diverse clinical settings while helping build stronger connections between physician training and the communities they serve.</p>        </div>
         <NetworkCarousel />
       </div>
     </section>
@@ -68,8 +84,10 @@ function NetworkCarousel() {
           "top-[64px] w-[91%] opacity-95 sm:top-[72px] sm:w-[91%] lg:top-[84px]",
           "top-[24px] w-[84%] opacity-90 sm:top-[28px] sm:w-[84%] lg:top-[30px]",
           "top-0 w-[78%] opacity-85 sm:w-[78%]",
+          "-top-4 w-[72%] opacity-80 sm:-top-5 sm:w-[72%]",
+          "-top-8 w-[66%] opacity-75 sm:-top-10 sm:w-[66%]",
         ][position];
-        const layerClasses = ["z-10", "z-[3]", "z-[2]", "z-[1]"][position];
+        const layerClasses = ["z-10", "z-[5]", "z-[4]", "z-[3]", "z-[2]", "z-[1]"][position];
 
         return (
           <article
@@ -89,7 +107,7 @@ function NetworkCarousel() {
                 type="button"
                 onClick={showNextCard}
                 aria-label={`Show next training network card after ${card.name}`}
-                className={`absolute right-6 top-6 grid h-14 w-14 place-items-center rounded-full bg-[#b51219] text-2xl text-white transition hover:bg-[#d2212a] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#163c6c] sm:right-8 sm:top-8 sm:h-16 sm:w-16 ${isActive ? "" : "pointer-events-none opacity-80"}`}
+                className={`absolute right-6 top-6 grid h-14 w-14 place-items-center !rounded-full bg-[#b51219] text-2xl text-white transition hover:bg-[#d2212a] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#163c6c] sm:right-8 sm:top-8 sm:h-16 sm:w-16 ${isActive ? "" : "pointer-events-none opacity-80"}`}
               >
                 <span aria-hidden="true">↓</span>
               </button>

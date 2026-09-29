@@ -52,7 +52,7 @@ export function CurrentlyAcceptingSection() {
           <h3 className="font-display text-lg font-semibold uppercase text-[#a61922]">Important</h3>
           <p className="mt-1 text-xs text-[#a61922]">Do not submit through ERAS / NRMP for this program.</p>
         </div>
-        <Link href="/programs/podiatric-medicine-surgery" className="inline-flex items-center gap-4 text-xs font-medium text-[#002c5b]">Get the full guide <span className="text-lg" aria-hidden="true">⟶</span></Link>
+        <Link className="inline-flex items-center gap-4 text-xs font-medium text-[#002c5b]">Get the full guide <span className="text-lg" aria-hidden="true">⟶</span></Link>
       </aside>
     </section>
   );

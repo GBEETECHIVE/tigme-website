@@ -2,12 +2,12 @@ import Image from "next/image";
 
 const updates = [
   {
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1100&q=85",
+    image: "/reference/latest-updates-1.png",
     title: "Podiatric Medicine & Surgery",
     description: "Three-year residency with reconstructive rearfoot and ankle training. Positions, curriculum, and rotation schedule.",
   },
   {
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1100&q=85",
+    image: "/reference/latest-updates-2.png",
     title: "Medical Education In Practice",
     description: "Discover the people and programs strengthening healthcare across the TIGME network.",
   },
@@ -15,7 +15,7 @@ const updates = [
 
 export function UpdatesSection() {
   return (
-    <section id="updates" className="mx-auto max-w-7xl px-5 py-20 lg:px-10 lg:py-28">
+    <section id="updates" className="mx-auto max-w-7xl px-5 py-5 lg:px-10 lg:py-10">
       <div className="mb-12">
         <h2 className="font-display text-4xl font-medium uppercase leading-none text-[#002c5b] sm:text-5xl">Latest Updates</h2>
         <p className="mt-7 text-sm text-[#002c5b]">One program accepting applications, with additional programs in development across the network.</p>

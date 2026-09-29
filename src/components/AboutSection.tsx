@@ -10,17 +10,17 @@ const benefits = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="mx-auto max-w-7xl px-5 py-16 sm:py-20 lg:px-10 lg:py-24">
+    <section id="about" className="mx-auto max-w-7xl px-5 py-10 sm:py-20 lg:px-10 lg:py-20">
       <div className="max-w-6xl">
         <h2 className="font-display text-4xl font-bold uppercase leading-none text-[#002c5b] sm:text-5xl">About TIGME</h2>
-        <p className="mt-7 max-w-6xl text-[11px] font-medium uppercase leading-[1.55] tracking-[0.01em] text-slate-700 sm:text-xs">
+        <p className="mt-7 max-w-6xl text-[11px] font-medium leading-[1.55] tracking-[0.01em] text-slate-700 sm:text-xs">
           TIGME Is A Nonprofit Organization Dedicated To Advancing Graduate Medical Education By Developing Innovative Training Programs That Prepare Physicians For The Evolving Needs Of Healthcare. By Bringing Together Community Hospitals, Physician Groups, Clinics, Academic Institutions, And Healthcare Organizations, TIGME Creates Collaborative Learning Environments Where Physicians Can Develop Strong Clinical Skills While Gaining Experience In Research, Scholarship, Leadership, And Innovation. Through This Community-Centered Approach, TIGME Aims To Prepare Critical Thinkers, Lifelong Learners, And Compassionate Physicians Who Are Equipped To Deliver High-Quality Patient Care And Make A Lasting Impact In The Communities They Serve.
         </p>
       </div>
 
       <div className="mt-16 grid items-center gap-10 lg:mt-20 lg:grid-cols-[0.95fr_1.05fr] lg:gap-12">
         <div className="relative aspect-[1.18/1] overflow-hidden rounded-lg bg-[#eaf6fb] sm:aspect-[1.25/1] lg:aspect-[1.08/1]">
-          <Image src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=90" alt="Medical professionals walking through a hospital" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 48vw" />
+          <Image src="/reference/home-about.png" alt="Medical professionals walking through a hospital" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 48vw" />
         </div>
 
         <div className="lg:pl-2">
@@ -35,7 +35,7 @@ export function AboutSection() {
               </li>
             ))}
           </ul>
-          <a href="/about-us" className="mt-10 inline-flex min-w-40 items-center justify-center bg-[#a61922] px-6 py-4 text-xs font-bold text-white transition hover:bg-[#002c5b]">Learn More</a>
+          <a href="/about-us" className="mt-10 inline-flex min-w-40 items-center justify-center bg-[#a61922] px-6 py-4 text-xs font-bold text-white transition hover:bg-[#002c5b] rounded-[10px]">Learn More</a>
         </div>
       </div>
     </section>

@@ -9,21 +9,21 @@ const programs = [
     title: "Podiatric Medicine & Surgery",
     category: "CPME - ACCREDITED",
     status: "Accepting",
-    image: "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=85",
+    image: "/reference/prog-3.png",
     description: "Three-year residency with reconstructive rearfoot and ankle training. Positions, curriculum, and rotation schedule.",
   },
   {
     title: "Family Medicine",
     category: "ACGME - IN DEVELOPMENT",
     status: "In Development",
-    image: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=900&q=85",
+    image: "/reference/prog-1.png",
     description: "Programs under development at Eagle Pass, Del Rio, and Roswell. Not yet accredited and not recruiting.",
   },
   {
     title: "Internal Medicine",
     category: "ACGME - IN DEVELOPMENT",
     status: "In Development",
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85",
+    image: "/reference/prog-2.png",
     description: "Metropolitan program in development in east Houston. Not yet accredited and not recruiting.",
   },
 ];
@@ -50,7 +50,7 @@ export function ProgramsSection() {
   }, [hasCarousel, pageCount]);
 
   return (
-    <section id="programs" className="bg-white px-4 py-16 sm:px-6 lg:px-10 lg:py-24">
+    <section id="programs" className="bg-white px-4 py-10 sm:px-6 lg:px-10 lg:py-18">
       <div className="mx-auto max-w-7xl">
         <header>
           <h2 className="font-display text-4xl font-medium uppercase leading-none text-[#002c5b] sm:text-5xl">Our programs</h2>
